@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre del Proyecto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./LogoPetersen.jpeg" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-icon">
+                <!-- Aquí puedes agregar tu icono personalizado -->
+                <img src="./LogoPetersen.jpeg" alt="Logo" id="navbar-icon">
+            </div>
+            <h1 id="project-name">Nombre del Proyecto</h1>
+            <input type="text" id="search-bar" placeholder="Buscar..." onkeyup="filterCards()">
+        </div>
+    </nav>
+
+    <!-- Main Content: Cards Section -->
+    <section class="cards-container" id="cards-container">
+        <div class="card" data-title="Albahaca">
+            <h2>Albahaca</h2>
+            <p>Temperatura: 20-25°C, Humedad: Alta, 60-70%.</p>
+        </div>
+        
+        <div class="card" data-title="Aloe Vera">
+            <h2>Aloe Vera</h2>
+            <p>Temperatura: 18-26°C, Humedad: Baja, 40-50%.</p>
+        </div>
+        
+        <div class="card" data-title="Caléndula">
+            <h2>Caléndula</h2>
+            <p>Temperatura: 18-22°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Diente de León">
+            <h2>Diente de León</h2>
+            <p>Temperatura: 15-25°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Echinacea">
+            <h2>Echinacea</h2>
+            <p>Temperatura: 18-24°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Ginseng">
+            <h2>Ginseng</h2>
+            <p>Temperatura: 15-20°C, Humedad: Alta, 60-70%.</p>
+        </div>
+        
+        <div class="card" data-title="Lavanda">
+            <h2>Lavanda</h2>
+            <p>Temperatura: 18-24°C, Humedad: Baja, 40-50%.</p>
+        </div>
+        
+        <div class="card" data-title="Manzanilla">
+            <h2>Manzanilla</h2>
+            <p>Temperatura: 15-25°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Melisa (Toronjil)">
+            <h2>Melisa (Toronjil)</h2>
+            <p>Temperatura: 15-24°C, Humedad: Alta, 60-70%.</p>
+        </div>
+        
+        <div class="card" data-title="Menta">
+            <h2>Menta</h2>
+            <p>Temperatura: 17-22°C, Humedad: Alta, 60-70%.</p>
+        </div>
+        
+        <div class="card" data-title="Orégano">
+            <h2>Orégano</h2>
+            <p>Temperatura: 18-25°C, Humedad: Baja, 40-50%.</p>
+        </div>
+        
+        <div class="card" data-title="Romero">
+            <h2>Romero</h2>
+            <p>Temperatura: 15-25°C, Humedad: Baja, 40-50%.</p>
+        </div>
+        
+        <div class="card" data-title="Salvia">
+            <h2>Salvia</h2>
+            <p>Temperatura: 18-24°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Stevia">
+            <h2>Stevia</h2>
+            <p>Temperatura: 20-30°C, Humedad: Media, 50-60%.</p>
+        </div>
+        
+        <div class="card" data-title="Tomillo">
+            <h2>Tomillo</h2>
+            <p>Temperatura: 15-25°C, Humedad: Baja, 40-50%.</p>
+        </div>
+        
+        <div class="card" data-title="Valeriana">
+            <h2>Valeriana</h2>
+            <p>Temperatura: 15-24°C, Humedad: Alta, 60-70%.</p>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Síguenos en:</p>
+        <ul class="social-links">
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
